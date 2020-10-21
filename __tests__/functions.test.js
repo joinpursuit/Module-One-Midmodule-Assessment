@@ -5,6 +5,9 @@ const {
   multiply,
 } = require("../problems/2.functions.js");
 
+window.globalCount = 0; 
+
+
 describe("logGreeting", () => {
   beforeEach(() => {
     jest.clearAllMocks();
