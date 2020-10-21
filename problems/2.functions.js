@@ -1,4 +1,3 @@
-window.globalCount = 0; 
 /** Logs a custom greeting to the console in the form "Hello Avery!"
 * @param {string} name - The name of the user to greet
 * @returns {undefined}

@@ -1,18 +1,5 @@
-<<<<<<< HEAD
-const {
-  logGreeting,
-  greeting,
-  incrementGlobalCount,
-  multiply,
-} = require("../problems/2.functions.js");
-
-window.globalCount = 0; 
-
-
-=======
 const { logGreeting, greeting, incrementGlobalCount, multiply } = require("../problems/2.functions.js")
 window.globalCount = 0;
->>>>>>> 8e807affcb43b3f0b06c6ae37323a4127e6b5cc2
 describe("logGreeting", () => {
   beforeEach(() => {
     jest.clearAllMocks();
@@ -43,15 +30,9 @@ describe("greeting", () => {
 
 describe("incrementGlobalCount", () => {
   test("Increments a global variable globalCount", () => {
-<<<<<<< HEAD
-    incrementGlobalCount(10);
-    expect(window.globalCount).toBe(10);
-  });
-=======
     incrementGlobalCount(10)
     expect(window.globalCount).toBe(10)
   })
->>>>>>> 8e807affcb43b3f0b06c6ae37323a4127e6b5cc2
   test("Does not return anything", () => {
     expect(incrementGlobalCount(10)).toBe(undefined);
   });
