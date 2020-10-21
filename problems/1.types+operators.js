@@ -3,7 +3,8 @@
 * @returns {boolean} - Is val a number
 */
 function isNumber(val) {
-  return typeof val === 'number'
+  if(isNaN(Number(val))) return false; 
+  return typeof Number(val) === 'number'
 }
 
 /** Takes in a value and returns whether it is truthy

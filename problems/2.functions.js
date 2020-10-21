@@ -1,6 +1,7 @@
+window.globalCount = 0; 
 /** Logs a custom greeting to the console in the form "Hello Avery!"
 * @param {string} name - The name of the user to greet
-* @returns {null}
+* @returns {undefined}
 */
 function logGreeting(name) {
   console.log("Hello " + name + "!")
@@ -10,16 +11,15 @@ function logGreeting(name) {
 * @param {string} name - The name of the user to greet
 * @returns {string} - The custom greeting
 */
-function greeting() {
+function greeting(name) {
   return "Hello " + name + "!"
 }
 
 /** Adds a number to a global variable called globalCount
 * @param  {number} val - The number to add to globalCount
-* @returns {null}
+* @returns {undefined}
 * @modifies {globalCount}
 */
-globalCount = 0;
 function incrementGlobalCount(val) {
   globalCount += val; 
 }

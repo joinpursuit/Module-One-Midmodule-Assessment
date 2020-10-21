@@ -22,7 +22,10 @@ function duplicateArray(arr) {
 * @returns {any[]} - The array with the first 3 elements removed
 */
 function removeFirstThreeElements(arr) {
-  return arr.slice(0, 3)
+  arr.shift()
+  arr.shift()
+  arr.shift()
+  return arr;
 }
 
 module.exports = {
