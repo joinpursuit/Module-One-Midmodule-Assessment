@@ -2,9 +2,7 @@
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
-function firstAndLastAverage() {
-
-}
+function firstAndLastAverage() {}
 
 /** Duplicates all values inside an array.
 * Sample input: [1,4,2,5]
@@ -12,9 +10,7 @@ function firstAndLastAverage() {
 * @param {number[]} arr - The input array
 * @returns {number[]} - The duplicated array
 */
-function duplicateArray() {
-
-}
+function duplicateArray(arr) {}
 
 /** Removes the first 3 elements from an array. If the array has fewer than 3 elements, return an empty array.
 * @param {any[]} arr - The input array
