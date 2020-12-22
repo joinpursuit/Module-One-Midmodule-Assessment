@@ -2,7 +2,12 @@
 * @param {number} num - The number to iterate up to
 * @param {number[]} - An array of even numbers from 0 to {num}
 */
-function evenNumbers() {
+function evenNumbers(num) {
+let num = [0]
+while (num <= 50) {
+  return num 
+  += 1
+}
 
 }
 
@@ -11,7 +16,12 @@ function evenNumbers() {
 * @param {number} num - The number to find multiples of
 * @returns {number[]} - An array of all multiples of {num} up to 1000
 */
-function multiplesToOneThousand() {
+function multiplesToOneThousand(num) {
+let num = [0]
+while (num <= 1000) {
+  return (num * num) 
+  += 1 
+}
 
 }
 
@@ -22,7 +32,7 @@ function multiplesToOneThousand() {
 * @param {number} count - How many powers of two to find
 * @returns {number[]} - An array with the first {count} powers of two
 */
-function powersOfTwo() {
+function powersOfTwo(count) {
 
 }
 
