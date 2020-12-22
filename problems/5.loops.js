@@ -2,8 +2,12 @@
 * @param {number} num - The number to iterate up to
 * @param {number[]} - An array of even numbers from 0 to {num}
 */
-function evenNumbers() {
-
+function evenNumbers(num) {
+for(let i = 0; i <= num; i++){
+  if(num % 2 === 0){
+    return num
+  }
+}
 }
 
 /** Returns all multiples of a given number up to 1000
@@ -12,7 +16,6 @@ function evenNumbers() {
 * @returns {number[]} - An array of all multiples of {num} up to 1000
 */
 function multiplesToOneThousand() {
-
 }
 
 /** Returns the first n powers of 2 (starting at 0)
