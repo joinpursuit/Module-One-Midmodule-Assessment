@@ -2,16 +2,17 @@
 * @param {string} name - The name of the user to greet
 * @returns {null}
 */
-function logGreeting() {
-
+function logGreeting(name = " ") {
+  return logGreeting(name)
 }
 
 /** Returns a custom greeting string in the form "Hello Avery!"
 * @param {string} name - The name of the user to greet
 * @returns {string} - The custom greeting
 */
-function greeting() {
-
+function greeting(name = "Avery") {
+  string = `Hello ${name}!`
+  return greeting()
 }
 
 /** Adds a number to a global variable called globalCount
@@ -20,18 +21,21 @@ function greeting() {
 * @returns {null}
 * @modifies {global.globalCount}
 */
-function incrementGlobalCount() {
-
+function incrementGlobalCount(val) {
+ return val 
 }
+
+
 /** Multiplies three numbers
 * @param {number} firstNum - The first number
 * @param {number} secondNum - The second number
 * @param {number} thirdNum - The third number
 * @returns {number} - The product of the three numbers
 */
-function multiply() {
-
+function multiply(firstNum, secondNum, thirdNum) {
+  return (firstNum * secondNum) * thirdNum
 }
+console.log(multiply(1,2,3))
 
 module.exports = {
   logGreeting,
