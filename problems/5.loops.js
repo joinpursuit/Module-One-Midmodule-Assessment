@@ -2,8 +2,15 @@
 * @param {number} num - The number to iterate up to
 * @param {number[]} - An array of even numbers from 0 to {num}
 */
-function evenNumbers() {
-
+function evenNumbers(num) {
+  let arr = []
+  let tracker = 0
+  
+  while (arr.length < num) {
+    arr.push(tracker)
+    tracker += 2
+  }
+  return arr 
 }
 
 /** Returns all multiples of a given number up to 1000

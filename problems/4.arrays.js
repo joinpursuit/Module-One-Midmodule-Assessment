@@ -2,7 +2,8 @@
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
-function firstAndLastAverage() {
+function firstAndLastAverage(arr) {
+arr.length -1 /index[0]
 
 }
 
@@ -12,7 +13,10 @@ function firstAndLastAverage() {
 * @param {number[]} arr - The input array
 * @returns {number[]} - The duplicated array
 */
-function duplicateArray() {
+function duplicateArray(arr) {
+  let track =[]
+
+  return track(arr.push(1, 4, 2, 5))
 
 }
 
