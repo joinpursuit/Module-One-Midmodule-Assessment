@@ -17,7 +17,11 @@ function isNumber(val) {
 * @returns {boolean} - Is val truthy
 */
 function isTruthy(val) {
- val === typeof 0 ? true : false
+ if(val !== null || val !== 0){
+return true
+} else{
+  return false
+}
 
 }
 

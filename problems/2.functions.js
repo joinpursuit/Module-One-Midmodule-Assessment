@@ -22,7 +22,7 @@ function greeting(name) {
 * @modifies {global.globalCount}
 */
 function incrementGlobalCount(val) {
-  return global.globalCount + val
+  global.globalCount = globalCount = val
  
 }
 
