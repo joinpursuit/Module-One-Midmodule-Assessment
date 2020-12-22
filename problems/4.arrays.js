@@ -37,11 +37,10 @@ function removeFirstThreeElements(arr) {
   if(arr.length < 3){
     return newArr
   } else {
-    return newArr.push(arr.slice(0,3))
+    return arr.slice(0,3)
   }
 }
-removeFirstThreeElements([12,33,66,7,8])
-
+removeFirstThreeElements([])
 module.exports = {
   firstAndLastAverage,
   duplicateArray,
