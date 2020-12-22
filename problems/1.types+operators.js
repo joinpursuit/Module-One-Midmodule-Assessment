@@ -3,8 +3,8 @@
 * @returns {boolean} - Is val a number
 */
 function isNumber(val) {
+  return typeof val === "number"
 }
-//Come back later!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 /** Takes in a value and returns whether it is truthy
 * @param {any} val - The input value
