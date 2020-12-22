@@ -4,7 +4,7 @@
 */
 function isNumber(val) {
 if( val = number){
-  return val
+  return true
 }
 console.log(isNumber(3))
 }
@@ -15,7 +15,7 @@ console.log(isNumber(3))
 */
 function isTruthy(val) {
 if(val){
-  return val
+  return true
 }
 }
 

@@ -37,7 +37,7 @@ function multiplesToOneThousand(num) {
 function powersOfTwo(count) {
   let array = []
   let i =0
-for(i = 0; )
+
 }
 
 module.exports = {
