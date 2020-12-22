@@ -4,7 +4,8 @@
 */
 function evenNumbers(num) {
   let array = []
- for (let i = 0; i <= num; i+=2){
+  let i=0
+ for ( i = 0; i <= num; i+=2){
    array.push(i)
  }
  return array
@@ -18,7 +19,8 @@ function evenNumbers(num) {
 */
 function multiplesToOneThousand(num) {
   let array= []
- for(let i = 0; i <=1000; i+num){
+  let i = 0
+ for(i = 0; i <=1000; i+num){
    array.push(i)
  }
  return array
@@ -32,8 +34,10 @@ function multiplesToOneThousand(num) {
 * @param {number} count - How many powers of two to find
 * @returns {number[]} - An array with the first {count} powers of two
 */
-function powersOfTwo() {
-
+function powersOfTwo(count) {
+  let array = []
+  let i =0
+for(i = 0; )
 }
 
 module.exports = {
