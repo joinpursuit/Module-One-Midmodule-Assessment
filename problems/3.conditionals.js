@@ -26,9 +26,9 @@ function temperatureMessageUsingTernary(temp) {
 * @returns {string} - A message about their age
 */
 function ageMessage(age) {
-  if(age > 65){
+  if(age >= 65){
     return "You are a senior"
-  } else if (age > 18){
+  } else if (age >= 18){
     return "You are an adult"
   } else {
     return "You are a minor" 
