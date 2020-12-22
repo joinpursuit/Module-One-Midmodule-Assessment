@@ -22,9 +22,9 @@ function greeting(name) {
 * @returns {null}
 * @modifies {global.globalCount}
 */
-var globalCount
 function incrementGlobalCount(val) {
- globalCount = global.globalCount + val
+ global.globalCount = globalCount + val
+
 }
 /** Multiplies three numbers
 * @param {number} firstNum - The first number
