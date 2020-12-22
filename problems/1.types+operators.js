@@ -2,16 +2,20 @@
 * @param {any} val - The input value
 * @returns {boolean} - Is val a number
 */
-function isNumber() {
-
+function isNumber(val) {
 }
+//Come back later!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 /** Takes in a value and returns whether it is truthy
 * @param {any} val - The input value
 * @returns {boolean} - Is val truthy
 */
-function isTruthy() {
-
+function isTruthy(val) {
+  if (val && true) {
+    return true 
+  } else {
+    return false 
+  }
 }
 
 
