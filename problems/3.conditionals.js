@@ -4,6 +4,12 @@
 */
 function temperatureMessage() {
 
+if (temp < 32) {
+console.log("It's freezing!");
+} else {
+  console.log("It's alright")
+}
+
 }
 
 /** Returns "It's freezing!" if the temperature is below 32, and "It's alright" otherwise. The implementation must use a ternary.
@@ -11,6 +17,10 @@ function temperatureMessage() {
 * @returns {string} - A message about the temperature
 */
 function temperatureMessageUsingTernary() {
+
+var temp = 32
+
+var itsCold = temp < 32 ? "It's freezing!" : "It's Alright"
 
 }
 
@@ -20,6 +30,8 @@ function temperatureMessageUsingTernary() {
 * @returns {string} - A message about their age
 */
 function ageMessage() {
+
+var whatAreYou = age > 18 ? "You are an Adult" : age <= 65 "You are a senior" 
 
 }
 
