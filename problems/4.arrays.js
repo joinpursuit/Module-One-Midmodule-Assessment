@@ -2,8 +2,18 @@
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
-function firstAndLastAverage() {
-
+function firstAndLastAverage(arr) {
+  let lastValue = arr[arr.length - 1]
+  let sum = 0
+  let answer = 0
+  if(arr.length >= 2){
+    sum = arr[0] + lastValue
+    answer = sum / 2
+  } else {
+    return null
+  }
+    
+    return answer
 }
 
 /** Duplicates all values inside an array.
@@ -12,7 +22,11 @@ function firstAndLastAverage() {
 * @param {number[]} arr - The input array
 * @returns {number[]} - The duplicated array
 */
-function duplicateArray() {
+function duplicateArray(arr) {
+let a = arr
+let b = arr
+
+return a.concat(b)
 
 }
 
@@ -20,7 +34,9 @@ function duplicateArray() {
 * @param {any[]} arr - The input array
 * @returns {any[]} - The array with the first 3 elements removed
 */
-function removeFirstThreeElements() {
+function removeFirstThreeElements(arr) {
+  arr.splice(0,3)
+ return arr
 
 }
 
