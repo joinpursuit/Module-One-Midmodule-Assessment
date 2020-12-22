@@ -25,9 +25,13 @@ while (i < num) {
 function multiplesToOneThousand(num) {
  let n = 0
 let arr = []
-for (let sum = num * n; sum < 1000; n++) {
-  arr.push(n)
-  n +=1
+let sum = num * n
+while (sum < 1000){
+  arr.push(n * num)
+  n++
+
+}
+return arr
 
 }
 
@@ -45,10 +49,7 @@ let arr =[]
 let num = 0 
 while (count > 0) {
 2**num
-num--
-
-
-}
+arr.push()
 }
 
 module.exports = {
