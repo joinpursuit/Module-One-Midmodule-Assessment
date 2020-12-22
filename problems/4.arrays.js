@@ -32,13 +32,13 @@ return a.concat(b)
 */
 function removeFirstThreeElements(arr) {
 let newArr = []
-  if (arr> 3){
-   newArr = arr.splice(2) 
+  if (arr.length > 1){
+    newArr = arr.splice(3) 
 
 }
 return newArr
 }
-
+console.log(removeFirstThreeElements([1,2,3,4]))
 module.exports = {
   firstAndLastAverage,
   duplicateArray,

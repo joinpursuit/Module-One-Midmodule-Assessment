@@ -22,13 +22,13 @@ function greeting(name) {
 * @modifies {global.globalCount}
 */
 function incrementGlobalCount(val) {
-let globalCount = 0 
-if(){
-  
+ let globalCount = 0
+   globalCount = val
+
 }
 
 
-}
+console.log(incrementGlobalCount(10))
 /** Multiplies three numbers
 * @param {number} firstNum - The first number
 * @param {number} secondNum - The second number
